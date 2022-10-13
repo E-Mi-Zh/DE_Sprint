@@ -3,6 +3,6 @@ x = input("Введите строку из скобок: ")
 for c in x:
     brackets[c] += 1
 if (brackets["["] == brackets["]"] and brackets["{"] == brackets["}"] and brackets["("] == brackets[")"]):
-    print("True")
+    print(True)
 else:
-    print("False")
+    print(False)
